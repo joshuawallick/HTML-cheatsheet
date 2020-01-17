@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML cheatsheet</title>
+</head>
+<body>
+	<p><h2>
+		This page is meant to be an HTML cheatsheet to look back on. The link for Youtube is <a href="https://www.youtube.com/watch?v=UB1O30fR-EE"target="_blank">here</a>.
+	</h2></p>
+<hr>
+	<h4>Second paragraph</h4>
+<!--The target="_blank" opens it in a new tab instead of navigating away from your website-->
+	<p>
+<!--Lorem (tab) in some text editers will creat lorem ipsum-->
+		<h3><strong>Example</strong> Example<em> Example</em> The first was "strong" text, 2nd normal, 3rd emphasized</h3>
+	<ul>
+		<li> List item 1</li>
+		<li> List item 2</li>
+		<li> List item 3</li>
+	</ul>
+	<ol>
+		<li> List item 1</li>
+		<li> List item 2</li>
+		<li> List item 3</li>
+	</ol>
+<hr>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Age</th>
+			</tr>
+		</thead>
+			<tbody>
+				<tr>
+					<td>Brian Wells</td>
+					<td>Brianwells@fakeemail.com</td>
+					<td>27</td>
+				</tr>
+				<tr>
+					<td>Travis Baylor</td>
+					<td>travisbaylor@easyemail.com</td>
+					<td>34</td>
+				</tr>
+			</tbody>
+	</table>
+<hr>
+<!--form action is what form and action is what it will do once it gets there. POSt will place info in the form itself (34:20)-->
+	<form action="process.php" method="POST">
+		<div>
+			<label>First Name</label>
+			<input type="text" name="firstName"placeholder="Enter First Name">
+		</div>
+		<br>
+		<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName">
+		</div>
+		<br>	
+		<div>
+			<label>Email</label>
+			<input type="email" name="email">
+		</div>
+		<br>
+			<label>Message</label>
+			<textarea name="message"></textarea>
+		</div>
+		<br>
+			<label>Gender</label>
+			<select name="Gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option vale="other">Other</option>
+			</select>
+		<br>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age" value="30">
+			</div>
+			<br>
+			<div>
+				<label>Birthday</label>
+				<input type="date" name="birthday">
+			</div>
+			<input type="Submit" name="Submit" value="Submit">
+			<button>Click Me!</button>
+
+	</form>	
+<br>
+<img src="https://bloximages.chicago2.vip.townnews.com/pantagraph.com/content/tncms/assets/v3/editorial/6/48/6489c62e-78b1-11e2-8b08-001a4bcf887a/51204d6e2941e.image.jpg?resize=500%2C548"alt="Joshua Wallick raising finger" Height=300px width=300px>
+	<div style="margin-top:500 px"></div>
+<br>
+	<p><h1>
+		For more tags go to <a href="https://www.w3schools.com/tags/">here</a>.
+	</h1></p>
+</body>
+<hr>
+<footer><h3>Brought to you by a fullly caffeinated Joshua Wallick and Youtube.
+</h3></footer>
+</html>
