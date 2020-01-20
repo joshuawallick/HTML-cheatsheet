@@ -57,7 +57,7 @@
 			<label>Last Name</label>
 			<input type="text" name="lastName">
 		</div>
-		<br>	
+		<br>
 		<div>
 			<label>Email</label>
 			<input type="email" name="email">
@@ -86,7 +86,7 @@
 			<input type="Submit" name="Submit" value="Submit">
 			<button>Click Me!</button>
 
-	</form>	
+	</form>
 <br>
 <img src="https://bloximages.chicago2.vip.townnews.com/pantagraph.com/content/tncms/assets/v3/editorial/6/48/6489c62e-78b1-11e2-8b08-001a4bcf887a/51204d6e2941e.image.jpg?resize=500%2C548"alt="Joshua Wallick raising finger" Height=300px width=300px>
 	<div style="margin-top:500 px"></div>
@@ -94,6 +94,11 @@
 	<p><h1>
 		For more tags go to <a href="https://www.w3schools.com/tags/">here</a>.
 	</h1></p>
+	<ol>
+		<li> List item 1</li>
+		<li> List item 2</li>
+		<li> List item 3</li>
+	</ol>
 </body>
 <hr>
 <footer><h3>Brought to you by a fullly caffeinated Joshua Wallick and Youtube.
